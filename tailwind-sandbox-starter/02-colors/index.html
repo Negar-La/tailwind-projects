@@ -12,21 +12,59 @@
     <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
 
     <!-- Text Colors -->
+    <p class="text-black">Black and white don't have shades!</p>
+    <p class="text-white">Tailwind is awesome!</p>
+    <p class="text-red-500">We have the shades from 50 to 900 !</p>
+    <p class="text-yellow-300">Tailwind is awesome!</p>
+    <p class="text-blue-500">Tailwind is awesome!</p>
+    <p class="text-cyan-500">Tailwind is awesome!</p>
 
     <!-- Background Colors -->
+    <div class="bg-red-600">hi</div>
+    <div class="bg-purple-400">hi</div>
+    <div class="bg-gray-300">hi</div>
+    <div class="bg-green-600">hi</div>
 
     <!-- Text Underline -->
+    <p class="underline decoration-red-600">Tailwind is awesome!</p>
+    <p class="underline text-emerald-400 decoration-blue-600">
+      Tailwind is awesome!
+    </p>
 
     <!-- Border Colors -->
+    <button class="border border-cyan-300">Subscribe</button>
+    <button class="border border-green-500">Subscribe</button>
+    <button class="border border-purple-300">Subscribse</button>
+    <input type="text" class="border border-orange-400" />
 
     <!-- Divide Colors -->
+    <div class="divide-y divide-red-300 bg-yellow-100">
+      <!-- div{$}*4 gives us 4 divs-->
+      <div class="text">1</div>
+      <div class="text">2</div>
+      <div class="text">3</div>
+      <div class="text">4</div>
+    </div>
 
     <!-- Outline Colors -->
+    <button class="outline outline-red-500">Hello</button>
+    <button class="outline outline-blue-500">Hello</button>
 
     <!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
+    <button class="shadow-lg bg-red-200 shadow-green-300/60 mb-4">
+      for shadow, you first need shadow and size!
+    </button>
+    <button class="shadow-md bg-gray-200 shadow-red-300/60 mb-4">
+      To set the opacity use slash: shadow-red-500/50 /80 ....
+    </button>
 
     <!-- Accent Colors -->
+    <input type="checkbox" class="accent-purple-500" checked />
+    <input type="checkbox" class="accent-cyan-500" checked />
 
     <!-- Arbitrary Colors -->
+    <div class="bg-[#427fab] text-white">using hexadecimal value</div>
+    <div class="bg-[rgb(255,0,0)] text-white">rgb with no space!</div>
+    <div class="bg-[steelblue] text-white">using an actual color name!</div>
   </body>
 </html>
