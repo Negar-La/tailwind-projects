@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,25 +9,139 @@
   </head>
   <body>
     <!-- Hover State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-sky-300 hover:text-black"
+    >
+      Hover
+    </button>
 
     <!-- Focus State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-sky-300 focus:text-black"
+    >
+      Focus
+    </button>
 
     <!-- Active State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 active:bg-sky-300 active:text-black"
+    >
+      Active
+    </button>
 
     <!-- Styling based on parent state -->
+    <a
+      href=""
+      class="group block max-w-sm mx-auto p-4 space-y-4 mt-6 shadow-lg rounded-lg border bg-white hover:bg-orange-600"
+    >
+      <h3 class="group-hover:text-white">group-hover for the child element</h3>
+      <p class="group-hover:text-white">Group text</p>
+    </a>
 
     <!-- Pseudo Classes -->
+    <!--we put first: on all items but only the first child shows the effect
+        we put even: on all items but only even childs show the effect-->
+    <ul class="m-4">
+      <li class="first:bg-sky-300 even:bg-purple-200 odd:bg-emerald-200">
+        Item 1
+      </li>
+      <li class="first:bg-sky-300 even:bg-purple-200 odd:bg-emerald-200">
+        Item 2
+      </li>
+      <li class="first:bg-sky-300 even:bg-purple-200 odd:bg-emerald-200">
+        Item 3
+      </li>
+      <li class="first:bg-sky-300 even:bg-purple-200 odd:bg-emerald-200">
+        Item 4
+      </li>
+      <li class="first:bg-sky-300 even:bg-purple-200 odd:bg-emerald-200">
+        Item 5
+      </li>
+      <li class="first:bg-sky-300 even:bg-purple-200 odd:bg-emerald-200">
+        Item 6
+      </li>
+      <li class="first:bg-sky-300 even:bg-purple-200 odd:bg-emerald-200">
+        Item 7
+      </li>
+    </ul>
 
     <!-- Appearance -->
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    <select class="appearance-none">
+      <option value="yes">yes</option>
+      <option value="no">no</option>
+    </select>
+
+    <br />
+    <a class="font-bold" href="#item">Click here to go to Item</a>
 
     <!-- Cursor -->
+    <p class="cursor-pointer">Lorem, ipsum dolor sit amet consectetur</p>
+    <p class="cursor-help">Lorem, ipsum dolor sit amet consectetur</p>
+    <p class="cursor-wait">Lorem, ipsum dolor sit amet consectetur</p>
+    <p class="cursor-not-allowed">Lorem, ipsum dolor sit amet consectetur</p>
+    <p class="cursor-auto">Lorem, ipsum dolor sit amet consectetur</p>
 
     <!-- Resize -->
 
     <!-- User Select -->
+    <div class="select-none">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+    </div>
+    <div class="select-all">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+    </div>
+    <div class="select-text">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+    </div>
+    <div class="select-auto">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+    </div>
 
     <!-- Smooth Scroll Example -->
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
+      aliquid aspernatur odit ipsa inventore corrupti provident sunt, ullam
+      iure, quidem doloremque! Sint voluptate sequi corporis voluptatem nemo,
+      nam in. Corrupti ab at accusamus sed? Libero aut eaque voluptatem dolorum
+      tenetur laborum facere voluptates debitis, minima mollitia, quos rem
+      corrupti, omnis ratione laboriosam eum soluta. Consequatur aperiam cumque
+      perferendis reprehenderit praesentium nulla impedit quidem ratione porro
+      dolorum ex, corrupti velit voluptate aliquam sit deleniti ad laboriosam
+      adipisci voluptatem iste tempora dignissimos facilis omnis. Blanditiis ab
+      numquam libero, minus enim cumque, iste quisquam molestiae deleniti
+      temporibus ad veritatis unde! Consequatur, reiciendis fuga? Lorem ipsum
+      dolor, sit amet consectetur adipisicing elit. Asperiores aliquid
+      aspernatur odit ipsa inventore corrupti provident sunt, ullam iure, quidem
+      doloremque! Sint voluptate sequi corporis voluptatem nemo, nam in.
+      Corrupti ab at accusamus sed? Libero aut eaque voluptatem dolorum tenetur
+      laborum facere voluptates debitis, minima mollitia, quos rem corrupti,
+      omnis ratione laboriosam eum soluta. Consequatur aperiam cumque
+      perferendis reprehenderit praesentium nulla impedit quidem ratione porro
+      dolorum ex, corrupti velit voluptate aliquam sit deleniti ad laboriosam
+      adipisci voluptatem iste tempora dignissimos facilis omnis. Blanditiis ab
+      numquam libero, minus enim cumque, iste quisquam molestiae deleniti
+      temporibus ad veritatis unde! Consequatur, reiciendis fuga? Lorem ipsum
+      dolor, sit amet consectetur adipisicing elit. Asperiores aliquid
+      aspernatur odit ipsa inventore corrupti provident sunt, ullam iure, quidem
+      doloremque! Sint voluptate sequi corporis voluptatem nemo, nam in.
+      Corrupti ab at accusamus sed? Libero aut eaque voluptatem dolorum tenetur
+      laborum facere voluptates debitis, minima mollitia, quos rem corrupti,
+      omnis ratione laboriosam eum soluta. Consequatur aperiam cumque
+      perferendis reprehenderit praesentium nulla impedit quidem ratione porro
+      dolorum ex, corrupti velit voluptate aliquam sit deleniti ad laboriosam
+      adipisci voluptatem iste tempora dignissimos facilis omnis. Blanditiis ab
+      numquam libero, minus enim cumque, iste quisquam molestiae deleniti
+      temporibus ad veritatis unde! Consequatur, reiciendis fuga?
+    </p>
+    <div id="item">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptates
+      ut eos autem provident quaerat debitis, quasi id nisi laboriosam quos
+      corrupti dolorum voluptatibus perspiciatis laudantium enim, magni pariatur
+      repudiandae adipisci. Officiis error delectus laboriosam magni eum
+      mollitia quia expedita deleniti neque explicabo reprehenderit repellendus,
+      quis odio cumque excepturi accusamus!
+    </div>
   </body>
 </html>
 
