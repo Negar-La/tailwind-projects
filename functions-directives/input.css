@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    /* we use @apply directive to use existing tailwind classes */
+    @apply text-lg;
+  }
+}
+
+@layer components {
+  .btn-blue {
+    /* we use @apply directive to use existing tailwind classes */
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl;
+  }
+  .content-area {
+    @apply bg-red-500/70 text-white;
+    /* theme function and pass in object.key*/
+    height: theme("spacing.128");
+  }
+}
+
+/* screen function */
+@media screen(lg) {
+  body {
+    @apply bg-black text-white;
+  }
+}
