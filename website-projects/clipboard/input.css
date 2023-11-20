@@ -3,6 +3,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    @apply mb-8 text-4xl md:text-5xl font-bold text-darkGrayishBlue;
+  }
+}
+
+/* create a new class and add repetaing classes */
+.button-container {
+  @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
+}
+
+.section-container {
+  @apply max-w-6xl mx-auto text-center;
+}
+
+.p-container {
+  @apply text-grayishBlue max-w-3xl mx-auto;
+}
+
 body {
   background-image: url("../images/bg-header-desktop.png");
   background-repeat: no-repeat;
