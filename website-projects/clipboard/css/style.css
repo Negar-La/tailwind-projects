@@ -550,6 +550,23 @@ h1 {
   --tw-backdrop-sepia:  ;
 }
 
+.relative {
+  position: relative;
+}
+
+.right-\[50\%\] {
+  right: 50%;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -569,12 +586,50 @@ h1 {
   margin-bottom: 2.5rem;
 }
 
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
 .mb-24 {
   margin-bottom: 6rem;
 }
 
 .mb-40 {
   margin-bottom: 10rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-y-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
 }
 
 .rounded-full {
@@ -595,6 +650,16 @@ h1 {
   background-color: hsl(171 66% 44% / var(--tw-bg-opacity));
 }
 
+.bg-yellow-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -613,6 +678,10 @@ h1 {
   padding-top: 4rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -623,8 +692,22 @@ h1 {
   line-height: 1.75rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .leading-9 {
   line-height: 2.25rem;
+}
+
+.text-darkGrayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(210 10% 33% / var(--tw-text-opacity));
+}
+
+.text-grayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(201 11% 66% / var(--tw-text-opacity));
 }
 
 .shadow-lg {
@@ -678,6 +761,8 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   max-width: 72rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
   text-align: center;
 }
 
@@ -703,4 +788,54 @@ body {
 
 .hover\:opacity-80:hover {
   opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
+  .md\:mb-60 {
+    margin-bottom: 15rem;
+  }
+
+  .md\:w-2\/4 {
+    width: 50%;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .md\:space-x-14 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(3.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(3.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:space-x-32 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(8rem * var(--tw-space-x-reverse));
+    margin-left: calc(8rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:pl-16 {
+    padding-left: 4rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
 }
