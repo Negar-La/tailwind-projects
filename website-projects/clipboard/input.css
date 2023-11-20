@@ -7,6 +7,9 @@
   h1 {
     @apply mb-8 text-4xl md:text-5xl font-bold text-darkGrayishBlue;
   }
+  h2 {
+    @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
+  }
 }
 
 /* create a new class and add repetaing classes */
