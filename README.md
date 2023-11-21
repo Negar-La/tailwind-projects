@@ -27,6 +27,8 @@ The sandbox contains around 20 different folders/files that focus on specific as
 
 1.  **Clipboard Website**
 
+    https://chipper-gelato-bcd808.netlify.app/
+
 2.  **Loopstudios**
 
 3.  **Shortly**
