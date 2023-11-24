@@ -25,14 +25,14 @@ The sandbox contains around 20 different folders/files that focus on specific as
 
 ## ✔️ Website Projects
 
-1.  **Clipboard Website**
+1. [**Clipboard Website**](https://chipper-gelato-bcd808.netlify.app/)
 
-2.  **Loopstudios**
+2. **Loopstudios**
 
-3.  **Shortly**
+3. **Shortly**
 
-4.  **Testimonial Grid**
+4. **Testimonial Grid**
 
-5.  **Fylo**
+5. **Fylo**
 
-6.  **Bookmark**
+6. **Bookmark**
