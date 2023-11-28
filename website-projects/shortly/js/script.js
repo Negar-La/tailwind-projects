@@ -35,7 +35,7 @@ const formSubmit = (e) => {
     errMsg.innerHTML = "Please enter something";
     input.classList.add("border-red");
   } else if (!validURL(input.value)) {
-    errMsg.innerHTML = "Please enter a valir URL";
+    errMsg.innerHTML = "Please enter a valid URL";
     input.classList.add("border-red");
   } else {
     errMsg.innerHTML = "";
