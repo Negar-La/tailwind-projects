@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@400;600&family=Josefin+Sans:wght@300&family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+    <script src="js/script.js" defer></script>
     <link rel="stylesheet" href="./css/style.css" />
     <title>Shortly</title>
   </head>
@@ -95,7 +96,7 @@
         <!-- Form -->
         <form
           id="link-form"
-          class="flex flex-col w-full p-10 -mt-20 space-y-4 bg-darkViolet rounded-lg md:flex-row md:space-y-0 md:space-x-3"
+          class="relative flex flex-col w-full p-10 -mt-20 space-y-4 bg-darkViolet rounded-lg md:flex-row md:space-y-0 md:space-x-3"
         >
           <input
             type="text"
@@ -109,6 +110,12 @@
           >
             Shorten It!
           </button>
+
+          <!-- Error Message -->
+          <div
+            id="err-msg"
+            class="absolute left-7 bottom-3 text-red text-sm italic"
+          ></div>
         </form>
 
         <!-- Link 1 -->
