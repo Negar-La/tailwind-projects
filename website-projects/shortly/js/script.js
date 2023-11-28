@@ -1,6 +1,18 @@
+const btn = document.getElementById("menu-btn");
+const menu = document.getElementById("menu");
+
 const input = document.getElementById("link-input");
 const linkForm = document.getElementById("link-form");
 const errMsg = document.getElementById("err-msg");
+
+// Toggle Mobile Menu
+const navToggle = () => {
+  btn.classList.toggle("open");
+  menu.classList.toggle("flex");
+  menu.classList.toggle("hidden");
+};
+
+btn.addEventListener("click", navToggle);
 
 // Validate a URL
 const validURL = (str) => {
