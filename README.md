@@ -29,7 +29,7 @@ The sandbox contains around 20 different folders/files that focus on specific as
 
 2. [**Loopstudios**](https://loopstudios-theta-ochre.vercel.app/)
 
-3. **Shortly**
+3. [**Shortly**](https://main--lighthearted-frangollo-8222f2.netlify.app/)
 
 4. **Testimonial Grid**
 
