@@ -3,6 +3,10 @@ const tabs = document.querySelectorAll(".tab");
 
 const panels = document.querySelectorAll(".panel");
 
+const btn = document.getElementById("menu-btn");
+const menu = document.getElementById("menu");
+const logo = document.getElementById("logo");
+
 const onTabClick = (e) => {
   //console.log(123);
   // console.log(e.target);
@@ -33,3 +37,20 @@ tabs.forEach((tab) => {
   // console.log(tab);
   tab.addEventListener("click", onTabClick);
 });
+
+//Hamburger button listener
+
+const navToggle = () => {
+  //console.log(123);
+  btn.classList.toggle("open");
+  menu.classList.toggle("flex");
+  menu.classList.toggle("hidden");
+
+  if (menu.classList.contains("flex")) {
+    logo.setAttribute("src", "./images/logo-bookmark-footer.svg");
+  } else {
+    logo.setAttribute("src", "./images/logo-bookmark.svg");
+  }
+};
+
+btn.addEventListener("click", navToggle);
